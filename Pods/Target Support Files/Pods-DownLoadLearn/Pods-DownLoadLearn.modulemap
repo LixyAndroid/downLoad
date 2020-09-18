@@ -1,0 +1,6 @@
+framework module Pods_DownLoadLearn {
+  umbrella header "Pods-DownLoadLearn-umbrella.h"
+
+  export *
+  module * { export * }
+}
