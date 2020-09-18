@@ -3,19 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		AB28F5A5251488FB0056829C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28F5A4251488FB0056829C /* AppDelegate.m */; };
 		AB28F5A8251488FB0056829C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28F5A7251488FB0056829C /* SceneDelegate.m */; };
-		AB28F5AB251488FB0056829C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28F5AA251488FB0056829C /* ViewController.m */; };
-		AB28F5AE251488FB0056829C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB28F5AC251488FB0056829C /* Main.storyboard */; };
 		AB28F5B0251488FC0056829C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB28F5AF251488FC0056829C /* Assets.xcassets */; };
 		AB28F5B3251488FC0056829C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB28F5B1251488FC0056829C /* LaunchScreen.storyboard */; };
 		AB28F5B6251488FC0056829C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28F5B5251488FC0056829C /* main.m */; };
 		AB28F5C0251488FC0056829C /* DownLoadLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28F5BF251488FC0056829C /* DownLoadLearnTests.m */; };
 		AB28F5CB251488FC0056829C /* DownLoadLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28F5CA251488FC0056829C /* DownLoadLearnUITests.m */; };
+		AB28F5DC251489660056829C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB28F5DB251489660056829C /* Main.storyboard */; };
+		AB28F5EE251489990056829C /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28F5E4251489990056829C /* ShowViewController.m */; };
+		AB28F5EF251489990056829C /* DownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28F5E5251489990056829C /* DownLoadViewController.m */; };
+		AB28F5F0251489990056829C /* DownLoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB28F5E6251489990056829C /* DownLoadViewController.xib */; };
+		AB28F5F1251489990056829C /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28F5E8251489990056829C /* Test.m */; };
+		AB28F5F2251489990056829C /* QDNetServerDownLoadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28F5EA251489990056829C /* QDNetServerDownLoadTool.m */; };
+		AB28F5F3251489990056829C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB28F5EB251489990056829C /* MenuViewController.m */; };
+		AF9C1664EB038B75BAFBE522 /* Pods_DownLoadLearn_DownLoadLearnUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47976AA61F44DB7F8864092 /* Pods_DownLoadLearn_DownLoadLearnUITests.framework */; };
+		D107970BEC12E2D1F7F9E98F /* Pods_DownLoadLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEE10370FFD7D7E04AE7B3A /* Pods_DownLoadLearn.framework */; };
+		D68AB17171029A13A9315DF4 /* Pods_DownLoadLearnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0088DB238311AA775919D936 /* Pods_DownLoadLearnTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0088DB238311AA775919D936 /* Pods_DownLoadLearnTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownLoadLearnTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEE10370FFD7D7E04AE7B3A /* Pods_DownLoadLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownLoadLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C7B6E17D3981428DD4E623 /* Pods-DownLoadLearnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoadLearnTests.release.xcconfig"; path = "Target Support Files/Pods-DownLoadLearnTests/Pods-DownLoadLearnTests.release.xcconfig"; sourceTree = "<group>"; };
+		44852BC26184EB52B4558C87 /* Pods-DownLoadLearn-DownLoadLearnUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoadLearn-DownLoadLearnUITests.debug.xcconfig"; path = "Target Support Files/Pods-DownLoadLearn-DownLoadLearnUITests/Pods-DownLoadLearn-DownLoadLearnUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BD46AD735BDFE25764EA794 /* Pods-DownLoadLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoadLearn.debug.xcconfig"; path = "Target Support Files/Pods-DownLoadLearn/Pods-DownLoadLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		9EFBB64EA5294C4D92E05A70 /* Pods-DownLoadLearnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoadLearnTests.debug.xcconfig"; path = "Target Support Files/Pods-DownLoadLearnTests/Pods-DownLoadLearnTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F53BF1F015153A39E6BF9D9 /* Pods-DownLoadLearn-DownLoadLearnUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoadLearn-DownLoadLearnUITests.release.xcconfig"; path = "Target Support Files/Pods-DownLoadLearn-DownLoadLearnUITests/Pods-DownLoadLearn-DownLoadLearnUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AB28F5A0251488FB0056829C /* DownLoadLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownLoadLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB28F5A3251488FB0056829C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB28F5A4251488FB0056829C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AB28F5A6251488FB0056829C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		AB28F5A7251488FB0056829C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		AB28F5A9251488FB0056829C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB28F5AA251488FB0056829C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AB28F5AD251488FB0056829C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB28F5AF251488FC0056829C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB28F5B2251488FC0056829C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB28F5B4251488FC0056829C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +66,20 @@
 		AB28F5C6251488FC0056829C /* DownLoadLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownLoadLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB28F5CA251488FC0056829C /* DownLoadLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownLoadLearnUITests.m; sourceTree = "<group>"; };
 		AB28F5CC251488FC0056829C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB28F5DB251489660056829C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AB28F5E3251489990056829C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		AB28F5E4251489990056829C /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		AB28F5E5251489990056829C /* DownLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadViewController.m; sourceTree = "<group>"; };
+		AB28F5E6251489990056829C /* DownLoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownLoadViewController.xib; sourceTree = "<group>"; };
+		AB28F5E7251489990056829C /* DownLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadViewController.h; sourceTree = "<group>"; };
+		AB28F5E8251489990056829C /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		AB28F5E9251489990056829C /* QDNetServerDownLoadTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNetServerDownLoadTool.h; sourceTree = "<group>"; };
+		AB28F5EA251489990056829C /* QDNetServerDownLoadTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDNetServerDownLoadTool.m; sourceTree = "<group>"; };
+		AB28F5EB251489990056829C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		AB28F5EC251489990056829C /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		AB28F5ED251489990056829C /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		B47976AA61F44DB7F8864092 /* Pods_DownLoadLearn_DownLoadLearnUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownLoadLearn_DownLoadLearnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1E96D76A62681D0C543619 /* Pods-DownLoadLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownLoadLearn.release.xcconfig"; path = "Target Support Files/Pods-DownLoadLearn/Pods-DownLoadLearn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D107970BEC12E2D1F7F9E98F /* Pods_DownLoadLearn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68AB17171029A13A9315DF4 /* Pods_DownLoadLearnTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +103,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9C1664EB038B75BAFBE522 /* Pods_DownLoadLearn_DownLoadLearnUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0090C024871BD488EB2C5367 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BD46AD735BDFE25764EA794 /* Pods-DownLoadLearn.debug.xcconfig */,
+				ED1E96D76A62681D0C543619 /* Pods-DownLoadLearn.release.xcconfig */,
+				44852BC26184EB52B4558C87 /* Pods-DownLoadLearn-DownLoadLearnUITests.debug.xcconfig */,
+				9F53BF1F015153A39E6BF9D9 /* Pods-DownLoadLearn-DownLoadLearnUITests.release.xcconfig */,
+				9EFBB64EA5294C4D92E05A70 /* Pods-DownLoadLearnTests.debug.xcconfig */,
+				37C7B6E17D3981428DD4E623 /* Pods-DownLoadLearnTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AB28F597251488FB0056829C = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +130,8 @@
 				AB28F5BE251488FC0056829C /* DownLoadLearnTests */,
 				AB28F5C9251488FC0056829C /* DownLoadLearnUITests */,
 				AB28F5A1251488FB0056829C /* Products */,
+				0090C024871BD488EB2C5367 /* Pods */,
+				D19CBDF1CFEEA8017A7799CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,13 +148,22 @@
 		AB28F5A2251488FB0056829C /* DownLoadLearn */ = {
 			isa = PBXGroup;
 			children = (
+				AB28F5E7251489990056829C /* DownLoadViewController.h */,
+				AB28F5E5251489990056829C /* DownLoadViewController.m */,
+				AB28F5E6251489990056829C /* DownLoadViewController.xib */,
+				AB28F5E3251489990056829C /* MenuViewController.h */,
+				AB28F5EB251489990056829C /* MenuViewController.m */,
+				AB28F5E9251489990056829C /* QDNetServerDownLoadTool.h */,
+				AB28F5EA251489990056829C /* QDNetServerDownLoadTool.m */,
+				AB28F5ED251489990056829C /* ShowViewController.h */,
+				AB28F5E4251489990056829C /* ShowViewController.m */,
+				AB28F5EC251489990056829C /* Test.h */,
+				AB28F5E8251489990056829C /* Test.m */,
+				AB28F5DB251489660056829C /* Main.storyboard */,
 				AB28F5A3251488FB0056829C /* AppDelegate.h */,
 				AB28F5A4251488FB0056829C /* AppDelegate.m */,
 				AB28F5A6251488FB0056829C /* SceneDelegate.h */,
 				AB28F5A7251488FB0056829C /* SceneDelegate.m */,
-				AB28F5A9251488FB0056829C /* ViewController.h */,
-				AB28F5AA251488FB0056829C /* ViewController.m */,
-				AB28F5AC251488FB0056829C /* Main.storyboard */,
 				AB28F5AF251488FC0056829C /* Assets.xcassets */,
 				AB28F5B1251488FC0056829C /* LaunchScreen.storyboard */,
 				AB28F5B4251488FC0056829C /* Info.plist */,
@@ -137,6 +190,16 @@
 			path = DownLoadLearnUITests;
 			sourceTree = "<group>";
 		};
+		D19CBDF1CFEEA8017A7799CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FEE10370FFD7D7E04AE7B3A /* Pods_DownLoadLearn.framework */,
+				B47976AA61F44DB7F8864092 /* Pods_DownLoadLearn_DownLoadLearnUITests.framework */,
+				0088DB238311AA775919D936 /* Pods_DownLoadLearnTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB28F5CF251488FC0056829C /* Build configuration list for PBXNativeTarget "DownLoadLearn" */;
 			buildPhases = (
+				D41A4DDCBA294210C22F3E48 /* [CP] Check Pods Manifest.lock */,
 				AB28F59C251488FB0056829C /* Sources */,
 				AB28F59D251488FB0056829C /* Frameworks */,
 				AB28F59E251488FB0056829C /* Resources */,
+				A5B454ACB694270914097AF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB28F5D2251488FC0056829C /* Build configuration list for PBXNativeTarget "DownLoadLearnTests" */;
 			buildPhases = (
+				A20D2512813659A190472433 /* [CP] Check Pods Manifest.lock */,
 				AB28F5B7251488FC0056829C /* Sources */,
 				AB28F5B8251488FC0056829C /* Frameworks */,
 				AB28F5B9251488FC0056829C /* Resources */,
@@ -179,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB28F5D5251488FC0056829C /* Build configuration list for PBXNativeTarget "DownLoadLearnUITests" */;
 			buildPhases = (
+				0CB415E07FB9258F3A7465F7 /* [CP] Check Pods Manifest.lock */,
 				AB28F5C2251488FC0056829C /* Sources */,
 				AB28F5C3251488FC0056829C /* Frameworks */,
 				AB28F5C4251488FC0056829C /* Resources */,
+				AE018A93895ACC3D69815CB0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,7 +309,8 @@
 			files = (
 				AB28F5B3251488FC0056829C /* LaunchScreen.storyboard in Resources */,
 				AB28F5B0251488FC0056829C /* Assets.xcassets in Resources */,
-				AB28F5AE251488FB0056829C /* Main.storyboard in Resources */,
+				AB28F5F0251489990056829C /* DownLoadViewController.xib in Resources */,
+				AB28F5DC251489660056829C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +330,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CB415E07FB9258F3A7465F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DownLoadLearn-DownLoadLearnUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A20D2512813659A190472433 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DownLoadLearnTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B454ACB694270914097AF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DownLoadLearn/Pods-DownLoadLearn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DownLoadLearn/Pods-DownLoadLearn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DownLoadLearn/Pods-DownLoadLearn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE018A93895ACC3D69815CB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DownLoadLearn-DownLoadLearnUITests/Pods-DownLoadLearn-DownLoadLearnUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DownLoadLearn-DownLoadLearnUITests/Pods-DownLoadLearn-DownLoadLearnUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DownLoadLearn-DownLoadLearnUITests/Pods-DownLoadLearn-DownLoadLearnUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D41A4DDCBA294210C22F3E48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DownLoadLearn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB28F59C251488FB0056829C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB28F5AB251488FB0056829C /* ViewController.m in Sources */,
+				AB28F5F3251489990056829C /* MenuViewController.m in Sources */,
+				AB28F5EE251489990056829C /* ShowViewController.m in Sources */,
 				AB28F5A5251488FB0056829C /* AppDelegate.m in Sources */,
 				AB28F5B6251488FC0056829C /* main.m in Sources */,
+				AB28F5F1251489990056829C /* Test.m in Sources */,
+				AB28F5F2251489990056829C /* QDNetServerDownLoadTool.m in Sources */,
+				AB28F5EF251489990056829C /* DownLoadViewController.m in Sources */,
 				AB28F5A8251488FB0056829C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +481,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AB28F5AC251488FB0056829C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB28F5AD251488FB0056829C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB28F5B1251488FC0056829C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +606,7 @@
 		};
 		AB28F5D0251488FC0056829C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD46AD735BDFE25764EA794 /* Pods-DownLoadLearn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +625,7 @@
 		};
 		AB28F5D1251488FC0056829C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1E96D76A62681D0C543619 /* Pods-DownLoadLearn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +644,7 @@
 		};
 		AB28F5D3251488FC0056829C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFBB64EA5294C4D92E05A70 /* Pods-DownLoadLearnTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +665,7 @@
 		};
 		AB28F5D4251488FC0056829C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C7B6E17D3981428DD4E623 /* Pods-DownLoadLearnTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +686,7 @@
 		};
 		AB28F5D6251488FC0056829C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44852BC26184EB52B4558C87 /* Pods-DownLoadLearn-DownLoadLearnUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KB7N82RNAZ;
@@ -532,6 +705,7 @@
 		};
 		AB28F5D7251488FC0056829C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F53BF1F015153A39E6BF9D9 /* Pods-DownLoadLearn-DownLoadLearnUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KB7N82RNAZ;
